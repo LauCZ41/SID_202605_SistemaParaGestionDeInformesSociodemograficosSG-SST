@@ -1,0 +1,1 @@
+# SID_202606_SistemaParaGestionDeInformesSociodemograficosSG-SST
