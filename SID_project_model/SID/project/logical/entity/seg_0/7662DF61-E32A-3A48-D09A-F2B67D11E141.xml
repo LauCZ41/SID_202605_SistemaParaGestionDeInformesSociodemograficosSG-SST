@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7662DF61-E32A-3A48-D09A-F2B67D11E141" name="VACANCY">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 19:58:46 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F5E76D67-BB99-1977-54A1-F99CA24B0392">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 19:59:05 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="possition_applied" id="656C4FA7-E37C-AD15-A1F8-54519D7E3753">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 19:59:10 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="96FDD28E-4D8B-517F-4F1C-86F2C3E64655">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 19:59:31 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="occupational_area" id="A675D50B-FE7A-ABB3-75B1-3C4F9D495231">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 19:59:40 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="2B385C46-BA1E-BEF6-91C4-7AEF7B539FF8">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 19:59:58 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="AB14F7A6-57D9-4802-ECC9-D2C4BB8810C8">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:00:13 UTC</createdTime>
+<generatorID>530181B2-1972-8CE6-9D99-B2E12B8EAF10</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<referedAttribute>B22A3D89-8C62-C5FA-2BBC-768B50315D2F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33E6710D-C866-5DC5-CDA6-09773AC8EABA" name="VACANCY PK">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 19:59:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5E76D67-BB99-1977-54A1-F99CA24B0392</attributeRef>
+<attributeRef>AB14F7A6-57D9-4802-ECC9-D2C4BB8810C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
