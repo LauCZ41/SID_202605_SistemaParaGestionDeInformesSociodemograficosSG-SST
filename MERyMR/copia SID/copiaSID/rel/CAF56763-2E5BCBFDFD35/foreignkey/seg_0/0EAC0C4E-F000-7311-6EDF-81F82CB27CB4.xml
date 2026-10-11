@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EAC0C4E-F000-7311-6EDF-81F82CB27CB4" containerWithKeyObject="5397AA03-47A9-E999-4FAB-2C8EF8A657A5" localFKIndex="83FAB02B-0337-F31C-5516-8184F57079E4" name="REGISTER_CERTIFICATE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>798F314D-F0AB-01DA-E827-04D9CBDFEFEA</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<referredTableLongName>CERTIFICATES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>705B8049-F18A-984C-7B36-CA7D9B68165E</referredTableID>
+<keyObject>CFC97F95-F224-0176-53DF-73753EB4412F</keyObject>
+<referredKeyID>CFC97F95-F224-0176-53DF-73753EB4412F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

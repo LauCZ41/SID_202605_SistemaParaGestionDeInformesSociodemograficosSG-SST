@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="705B8049-F18A-984C-7B36-CA7D9B68165E" name="CERTIFICATES">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>1E2F2711-6A8D-B9C8-89D1-C3022CA954CB</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<ordsAlias>certificate</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="code" id="A2FCD1FD-19C7-8FA7-19ED-747C6DD1BC62">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>A8731F8A-FB57-A5FE-A662-E21B947FA4CE</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="2B5F4D17-3214-CC3E-E4BF-5E5AADE31637">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>23712DAF-1E0B-A43E-C8C8-DBAD2BEFEE2D</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="institution_origin" id="E28C7C5C-5EEB-9D9A-B404-41D42F6B7857">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>CB5A9C00-076A-0084-4C36-14A1B97CCE7D</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_issue" id="A083BAA1-CC58-CD77-6EF9-DFC3B75C2EA0">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>A73F6277-BE74-558A-9E6B-3FA95621E08C</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expiration_date" id="412792C7-D9A0-856A-2F8F-C6BE3B99846A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>C7860671-B392-81DF-E758-3C27B6DC7EBB</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFC97F95-F224-0176-53DF-73753EB4412F" name="CERTIFICATE_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>D174B144-6B7A-B652-BA9D-B1A1F58EBD0E</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2FCD1FD-19C7-8FA7-19ED-747C6DD1BC62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

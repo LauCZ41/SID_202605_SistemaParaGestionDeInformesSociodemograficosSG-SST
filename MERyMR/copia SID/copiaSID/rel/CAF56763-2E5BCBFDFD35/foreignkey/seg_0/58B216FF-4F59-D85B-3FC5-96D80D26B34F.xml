@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58B216FF-4F59-D85B-3FC5-96D80D26B34F" containerWithKeyObject="9558C41D-706D-E6FF-2545-84F841AD3A67" localFKIndex="B2680730-6FC8-EEB6-B6EB-BBE38F1DA917" name="CONTRACT_VACANCY_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>F9348E3C-4BFC-7609-9774-1F2724627756</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<referredTableLongName>VACANCIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>49C60A93-96CB-E94A-F89E-D333C70AFFFB</referredTableID>
+<keyObject>D3EAEB94-977B-53EE-5533-D71787708DF0</keyObject>
+<referredKeyID>D3EAEB94-977B-53EE-5533-D71787708DF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

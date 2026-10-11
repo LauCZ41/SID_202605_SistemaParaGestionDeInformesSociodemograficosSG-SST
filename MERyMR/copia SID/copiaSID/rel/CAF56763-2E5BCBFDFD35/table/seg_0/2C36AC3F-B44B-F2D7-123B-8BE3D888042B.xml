@@ -1,0 +1,236 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C36AC3F-B44B-F2D7-123B-8BE3D888042B" name="EMPLOYEES_AUDITS">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>101F98A5-43CE-DD13-ABA6-73CDAD3034B2</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<ordsAlias>employee_audit</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DE80DCA6-5F4F-2645-DFE3-64A43CC684C3">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>C76E8AF0-BE60-AD95-E154-F3C103D57D43</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="change_date" id="37BBAB2E-B81B-F41B-BFC9-2A7ED20BDDFE">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>D9F79EB8-888B-028D-D42B-C23CCAA10E52</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source_ip" id="BCB60A5A-B49D-2429-A71A-3A2C4CDD2DE3">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>0A6E4B60-E83E-7038-86BC-893DB9800C88</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modified_by" id="A759FEB2-ED4D-DC75-B264-DD2C8E0254DF">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>A55EB787-0E57-542D-D8DB-C5969151C2D8</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="document_type" id="98688777-B9ED-2685-0A81-19B49EEFFC7D">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>FF13F28A-516D-C346-2310-8DD73E7D65F5</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="full_name" id="C729C950-F7C8-8625-4C35-5A864CAB772A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>68A8485D-0297-974E-73FD-9B2F343070B5</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="91944C85-777C-7337-FD10-4E9248A76C5E">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>026EE742-EF20-3B0B-A345-8BBCD0B2748B</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="civil_state" id="F2887DAC-1499-3BF9-1858-A6E699060A2D">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>53DF7864-B8C9-6916-263B-235AEBF557D1</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="BB824759-1B8D-461B-B69B-8501FFDCEFD2">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>93B4B3F6-A9A3-41F3-C9AA-41203E1EE02B</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="C2DEB190-B01F-0C9E-9DD6-C0DA171F2B22">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>82CF4726-F6E1-4B3F-9055-F9886CFD98C0</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="BFB7F990-F852-6635-F12F-F6A61FB56A36">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>9793564A-9B84-9DB0-7D95-C390E7709862</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="education_level" id="B8B64E41-BBCE-B063-95E2-7109810A87DA">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>1CDCD096-CA42-EDF8-0CF2-F023D4ABE924</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="8FEBF340-DC47-7E0D-2B5F-4E7875F8902B">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>038E56C9-65CF-392D-D1BD-AC6ABB13DD8E</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_register_document" id="18810308-168D-1144-59F0-85790CBC7E66">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>E704F3EB-E6F0-0621-0D1A-EB9ADEC1361E</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D24D7D64-8F9D-825D-D51B-A566635EE36C" referredColumn="4E54E074-DD36-CCCB-A937-04274F186C70"/>
+</associations>
+</Column>
+<Column name="emplyee_auditor_document" id="AFE74151-A4B2-1C3D-77CD-8F7E5A2C50F0">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>DDE7591B-7BD6-2727-2DAA-7B19BB92CCF3</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3878A293-55B9-344D-05B8-B14959B35EC9" referredColumn="4E54E074-DD36-CCCB-A937-04274F186C70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A147BE17-47B2-974F-98D5-F1F759B326DF" name="EMPLOYEE_AUDIT_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>394E8289-BC1B-8A81-0CA7-D0AED484E772</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE80DCA6-5F4F-2645-DFE3-64A43CC684C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7B9DD2F-4EEB-E9D9-9D43-D3271DE86364" name="EMPLOYEE_AUDIT_EMPLOYEE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>EE10E340-AE9D-47F5-1F1E-3BAD82436544</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18810308-168D-1144-59F0-85790CBC7E66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03A1DA98-2089-5571-4676-1FEBD980BB9B" name="EMPLOYEE_AUDIT_EMPLOYEE_FKv2">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>4B363EAB-EB18-AFBC-B875-8455B19A531F</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFE74151-A4B2-1C3D-77CD-8F7E5A2C50F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

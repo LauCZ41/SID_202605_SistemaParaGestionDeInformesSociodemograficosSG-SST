@@ -1,0 +1,247 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9558C41D-706D-E6FF-2545-84F841AD3A67" name="CONTRACTS">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>2C91DD2B-5733-E1EB-B86B-9F1776F36FB2</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<ordsAlias>contract</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="number" id="631490FB-2952-2FCB-409B-B409F9DA5B7F">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>27D21F14-B303-FB8C-D976-F3E7BFB33FCF</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="2CD31FDA-B22A-9F53-F4AD-3A6DE60263EC">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>F863FFDD-9803-970B-E456-002B36E77885</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="E874E1D1-D5E4-5B2A-892F-FDDBFC7343A8">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>DC954AF5-8AF3-45BF-9CF2-143695BF84A3</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>180</dataTypeSize>
+<ownDataTypeParameters>180,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="F12BDC46-1902-0B5B-D671-E3FE3247FF5B">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>0C0D8292-ED6D-3F32-E035-F62C989A3A02</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="working_hours" id="FD91A0A6-7B38-93A5-1E01-70D35730981E">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>B003E5CB-1E94-4B82-C71E-42D1FDCFBA16</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="working_modality" id="24BEC4B4-1F25-4F6E-FA99-20F174CAF6B6">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>B2010D05-F853-69A1-6741-6A53B1844A5E</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="78E13318-97EE-5D28-8535-ED65A28C26B7">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>004B46BD-0AB1-FBEC-7BAD-6BC69F4EAAA7</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="7304538F-2E87-5093-DD99-2A03BE5C08DC">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>352A585D-76BF-C811-3A1C-A638AF1F10A2</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contract_type" id="7EAEAE39-A9F5-1C5D-D54B-9D014FB8F635">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:56:46 UTC</createdTime>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="extension" id="8C365A72-9E87-855A-BC82-4916BD326C42">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:59:51 UTC</createdTime>
+<ownerDesignName>copiaSID</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reason" id="18601D1B-97C0-184C-8681-B3ADACF1FBE1">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:59:51 UTC</createdTime>
+<ownerDesignName>copiaSID</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expected_finish_date" id="C81E752F-4C9A-1237-4EAD-28BD17B96B09">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:59:51 UTC</createdTime>
+<ownerDesignName>copiaSID</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="termination_criteria" id="7A9716E6-7E54-E30D-2224-DC81E1B3100B">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:59:51 UTC</createdTime>
+<ownerDesignName>copiaSID</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="test_time" id="5BF33F3E-0E75-7DF8-7680-128AC5C59B01">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:59:51 UTC</createdTime>
+<ownerDesignName>copiaSID</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vacancy_id" id="AB7C4E0D-65AC-0D76-B3A2-841FEE090AF6">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>E193D8B7-09D7-E650-BC78-A367D3DF3C0F</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58B216FF-4F59-D85B-3FC5-96D80D26B34F" referredColumn="24966419-7B63-D6F7-9D3B-B279B4F89690"/>
+</associations>
+</Column>
+<Column name="employee_document" id="D74431CD-FFE1-F60A-96B5-A206D3CD558A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>AE01EBF9-1C9F-A31F-2712-074FC5A7363F</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="727D94AE-CEF1-F473-6CC7-7F418CCF4776" referredColumn="4E54E074-DD36-CCCB-A937-04274F186C70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB3E01B9-D849-11B7-DCE2-E83B00B8ADB6" name="CONTRACT_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>B7AFFEB9-2A03-662F-38BC-2C0B2444960B</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="631490FB-2952-2FCB-409B-B409F9DA5B7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2680730-6FC8-EEB6-B6EB-BBE38F1DA917" name="CONTRACT_VACANCY_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>F9348E3C-4BFC-7609-9774-1F2724627756</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7C4E0D-65AC-0D76-B3A2-841FEE090AF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9072420-A108-46AF-3A29-2E5BA4373EAB" name="CONTRACT_EMPLOYEE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>0D9CE877-4252-A6AC-D704-6F0F6D06B705</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D74431CD-FFE1-F60A-96B5-A206D3CD558A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

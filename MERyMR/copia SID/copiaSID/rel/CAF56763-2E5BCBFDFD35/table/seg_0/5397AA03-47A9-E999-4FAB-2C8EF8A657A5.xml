@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5397AA03-47A9-E999-4FAB-2C8EF8A657A5" name="REGISTERS">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>851AE644-7A51-0425-EE45-4DF76F407C65</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<ordsAlias>register</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_document" id="D791F918-4D47-364C-E2A1-A7E84D7AD2D2">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>9FF3214A-00FA-87FB-18A3-564D87EAC8A9</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D25D3F3-DF77-82EB-C007-C7D5C68F9978" referredColumn="4E54E074-DD36-CCCB-A937-04274F186C70"/>
+</associations>
+</Column>
+<Column name="certificate_code" id="2314F090-5612-D1CB-FB70-7CAF16A0E0C7">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>32CAFEAB-1AAA-D011-C632-70800E219A52</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EAC0C4E-F000-7311-6EDF-81F82CB27CB4" referredColumn="A2FCD1FD-19C7-8FA7-19ED-747C6DD1BC62"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62CE82D9-2946-1F9E-50B3-CA4541E8765E" name="REGISTER_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>5D6C0E6B-92BB-FD22-2DC9-164C023763EC</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D791F918-4D47-364C-E2A1-A7E84D7AD2D2"/>
+<colUsage columnID="2314F090-5612-D1CB-FB70-7CAF16A0E0C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76F53FA7-7A11-CB9E-B2E0-722BFECA57AF" name="REGISTER_EMPLOYEE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>49A9C530-5817-7FCD-9DC7-E45499FE0A6C</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D791F918-4D47-364C-E2A1-A7E84D7AD2D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83FAB02B-0337-F31C-5516-8184F57079E4" name="REGISTER_CERTIFICATE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>798F314D-F0AB-01DA-E827-04D9CBDFEFEA</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2314F090-5612-D1CB-FB70-7CAF16A0E0C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

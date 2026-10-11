@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A00BD27E-DB91-D49F-804C-FCFA6D6DA9E1" name="CLIENTS_COMPANY">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>AAB17983-F386-2874-BDB6-2F9F8B76506B</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<ordsAlias>client_company</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nit" id="FC1190E5-AFD5-8918-0572-60E95C5DFF74">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>B22A3D89-8C62-C5FA-2BBC-768B50315D2F</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BC142A41-BCC6-1CF8-3404-FE47F7B23CD3">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>A2C0047B-140E-B026-4671-CB24B6DDADC3</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="economic_area" id="F6802040-6D61-7EA5-3F5F-2CE2E48C1EA7">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>3CBB8902-4976-55E5-FF79-ECE00715269B</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFD3FE63-1026-807F-77DF-949BD99EE7C2" name="CLIENT_COMPANY_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-10-11 16:43:10 UTC</createdTime>
+<generatorID>1DC9040F-F8C9-1295-A9B8-2764B534D30D</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC1190E5-AFD5-8918-0572-60E95C5DFF74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="851AE644-7A51-0425-EE45-4DF76F407C65" name="REGISTER">
+<createdBy>segur</createdBy>
+<createdTime>2026-10-10 21:11:05 UTC</createdTime>
+<ownerDesignName>copiaSID</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document" id="9FF3214A-00FA-87FB-18A3-564D87EAC8A9">
+<createdBy>segur</createdBy>
+<createdTime>2026-10-10 21:11:14 UTC</createdTime>
+<generatorID>49A9C530-5817-7FCD-9DC7-E45499FE0A6C</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<referedAttribute>76EEE9B9-1D9C-6DF6-5410-C245FCD041B2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="32CAFEAB-1AAA-D011-C632-70800E219A52">
+<createdBy>segur</createdBy>
+<createdTime>2026-10-10 21:11:19 UTC</createdTime>
+<generatorID>798F314D-F0AB-01DA-E827-04D9CBDFEFEA</generatorID>
+<ownerDesignName>copiaSID</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<referedAttribute>A8731F8A-FB57-A5FE-A662-E21B947FA4CE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D6C0E6B-92BB-FD22-2DC9-164C023763EC" name="REGISTER PK">
+<createdBy>segur</createdBy>
+<createdTime>2026-10-10 21:11:16 UTC</createdTime>
+<ownerDesignName>copiaSID</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FF3214A-00FA-87FB-18A3-564D87EAC8A9</attributeRef>
+<attributeRef>32CAFEAB-1AAA-D011-C632-70800E219A52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
