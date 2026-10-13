@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E2F2711-6A8D-B9C8-89D1-C3022CA954CB" name="CERTIFICATE">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:06:39 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="code" id="A8731F8A-FB57-A5FE-A662-E21B947FA4CE">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:07:57 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="23712DAF-1E0B-A43E-C8C8-DBAD2BEFEE2D">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:08:12 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="institution_origin" id="CB5A9C00-076A-0084-4C36-14A1B97CCE7D">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:08:18 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_issue" id="A73F6277-BE74-558A-9E6B-3FA95621E08C">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:08:44 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="expiration_date" id="C7860671-B392-81DF-E758-3C27B6DC7EBB">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:09:39 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D174B144-6B7A-B652-BA9D-B1A1F58EBD0E" name="CERTIFICATE PK">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:08:11 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8731F8A-FB57-A5FE-A662-E21B947FA4CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

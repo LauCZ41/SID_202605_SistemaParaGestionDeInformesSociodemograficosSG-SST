@@ -1,0 +1,222 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78896B1E-CBFF-7A61-622D-1DD7730A2666" name="EMPLOYEE">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:01:32 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document" id="76EEE9B9-1D9C-6DF6-5410-C245FCD041B2">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:02:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="document_type" id="2F2FEA06-E7A6-EAF6-A595-AB48A5705AD1">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:02:13 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="full_name" id="5185201A-4431-084D-82F2-7B373AEB04FD">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:02:20 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthdate" id="C8830753-C0A6-C45F-5F1D-F331100115DF">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:02:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="00453300-21FB-66FD-232D-07E2F089D4FB">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:02:38 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="civil_state" id="C385CD86-BBFA-4835-3D4A-90485774BA47">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:02:53 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nationality" id="ECA52C7A-00D7-6B19-6682-464F28831C6D">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:03:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="1BA485C5-8032-77B9-F24B-C309F803A16C">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:03:10 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number" id="6A4A688E-0175-C21F-62A4-6D38991FDC6B">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:03:23 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="F822490C-1E36-F9A3-F0A5-0F2AB4EBC267">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:03:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="residence_city" id="00A7148A-37C2-057B-3DA0-14D23F167B2D">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:04:05 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="4FB8AC22-77C6-B1B9-AAA7-B2835AD1C3A6">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:10:00 UTC</createdTime>
+<generatorID>7080C9FB-4687-F91F-F8B3-FCA1B5B262FB</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A8731F8A-FB57-A5FE-A662-E21B947FA4CE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="391D8F39-FB24-C906-319A-3C4B6832691A">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:38:51 UTC</createdTime>
+<generatorID>72B91582-9466-283C-9EE8-34DEE93B3DC3</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F5E76D67-BB99-1977-54A1-F99CA24B0392</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="A46C2D2E-DE17-9D82-20A7-4148154C8B8A">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:38:51 UTC</createdTime>
+<generatorID>72B91582-9466-283C-9EE8-34DEE93B3DC3</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AB14F7A6-57D9-4802-ECC9-D2C4BB8810C8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="place_of_birth" id="E1C3A242-8678-DA15-ADC8-B8887B821A55">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-06 00:23:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="residence_department" id="07E78415-95D2-14F2-DE3E-FE8C81E47767">
+<createdBy>juanj</createdBy>
+<createdTime>2026-09-06 22:05:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="education_level" id="D046F11F-26B7-7BA3-5193-AAADF2CEAF96">
+<createdBy>juanj</createdBy>
+<createdTime>2026-09-06 22:05:21 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="F529F9D9-274A-A0BF-7BA3-D8A756A449CC">
+<createdBy>juanj</createdBy>
+<createdTime>2026-09-06 22:05:25 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="826D10E5-73DC-52DF-CB5F-AA9E949FAC30" name="PERSON PK">
+<createdBy>1108254445</createdBy>
+<createdTime>2026-09-05 20:02:12 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="CAF56763-867C-4438-1DD6-2E5BCBFDFD35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76EEE9B9-1D9C-6DF6-5410-C245FCD041B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
